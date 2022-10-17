@@ -72,3 +72,11 @@
 # for i in range(n-2):
 #     a, b = b, a+b
 #     print(b, end=" ")
+
+# POST - utrwalenie pętli
+
+# Pętle for liczb trzycyforowych podzielnych przez 13 (2 sposoby)
+
+# Pętle for liczb dwucyfrowych parzystych (3 sposoby)
+    
+# Pętle for potęg cyfr: WY: 0, 1, 4, 9, 16 .. 81 (2 sposoby printa)
