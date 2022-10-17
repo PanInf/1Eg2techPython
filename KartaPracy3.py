@@ -75,8 +75,26 @@
 
 # POST - utrwalenie pętli
 
-# Pętle for liczb trzycyforowych podzielnych przez 13 (2 sposoby)
+# Pętla for liczb trzycyforowych podzielnych przez 13 (2 sposoby)
 
-# Pętle for liczb dwucyfrowych parzystych (3 sposoby)
-    
-# Pętle for potęg cyfr: WY: 0, 1, 4, 9, 16 .. 81 (2 sposoby printa)
+# for i in range(104,1000,13):
+#     print(i, end=" ")
+
+# for i in range(100,1000):
+#     if i % 13 == 0:
+#         print(i, end=" ")
+
+# Pętla for liczb dwucyfrowych parzystych (3 sposoby)
+
+# for i in range(10,100,2):
+#     print(i, end=" ")
+
+# for i in range(10,100):
+#     if i % 2 == 0:
+#         print(i, end=" ")
+
+# for i in range(5, 50):
+#     print(i*2, end=" ")
+        
+# Pętla for potęg cyfr: WY: 0, 1, 4, 9, 16 .. 81 (2 sposoby printa)
+
