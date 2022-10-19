@@ -98,3 +98,17 @@
         
 # Pętla for potęg cyfr: WY: 0, 1, 4, 9, 16 .. 81 (2 sposoby printa)
 
+for i in range(10):
+    print(i**2, end=" ")
+
+for i in range(10):
+    print(f"i^2 = {i**2}")
+
+for i in range(10):
+    print(i, "^2=", i**2, sep="")
+
+for i in range(10):
+    print(i, "^ 2 =", i**2)
+
+for i in range(10):
+    print(str(i)+"^2="+str(i**2))
