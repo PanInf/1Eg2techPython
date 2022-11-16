@@ -114,48 +114,76 @@
 #
 # itd....
 
-n = int(input())
+# n = int(input())
 
-for i in range(n):
-    for j in range(n):
-        if i >= j:
-            print("*", end="")
-        else:
-            print(" ", end="")
-    print()
+# for i in range(n):
+#     for j in range(n):
+#         if i >= j:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
 
-print()
-print()
+# print()
+# print()
 
-for i in range(n):
-    for j in range(n):
-        if i + j <= n - 1:
-            print("*", end="")
-        else:
-            print(" ", end="")
-    print()
+# for i in range(n):
+#     for j in range(n):
+#         if i + j <= n - 1:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
 
-print()
-print()
+# print()
+# print()
     
-for i in range(n):
-    for j in range(n):
-        if i >= n - j - 1:
-            print("*", end="")
-        else:
-            print(" ", end="")
-    print()
+# for i in range(n):
+#     for j in range(n):
+#         if i >= n - j - 1:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
 
-print()
-print()
+# print()
+# print()
 
-for i in range(n):
-    for j in range(n):
-        if j >= i:
-            print("*", end="")
-        else:
-            print(" ", end="")
-    print()
-print()
-print()
+# for i in range(n):
+#     for j in range(n):
+#         if j >= i:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+# print()
+# print()
 
+# Zad 5
+
+# n = int(input())
+
+# for i in range(n):
+#     for j in range(n):
+#         if j == n//2:
+#             print("*",end="")
+#         elif i == n//2:
+#             print("-",end="")
+#         else:
+#             print(" ",end="")
+#     print()
+    
+# Zad 6
+
+# n = int(input())
+
+# for i in range(n):
+#     for j in range(n):
+#         if i + j == n - 1:
+#             print("?", end="")
+#         elif i - j == 0:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+        
