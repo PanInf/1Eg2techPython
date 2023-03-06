@@ -24,12 +24,37 @@
 
 # sprawdź czy wpisne słowo jest palindromem
 
-s = input()
-L = list(s)
-R = L.copy()
-R.reverse()
-print(L, R)
-if L == R:
-    print("jest palindromem")
-else:
-    print("nie jest palindromem")
+# s = input()
+# L = list(s)
+# R = L.copy()
+# R.reverse()
+# print(L, R)
+# if L == R:
+#     print("jest palindromem")
+# else:
+#     print("nie jest palindromem")
+
+# sprawdzenie palindroma za pomocą listy
+
+# s = input()
+
+# for i in range(len(s)//2):
+#     if s[i] != s[len(s)-1-i]:  
+#     # s[:i+1] != s[:len(s)-1-i:-1]
+#         exit("NIE")
+# exit("TAK")
+
+L = [ i**2 for i in range(1,10)]
+print(L)
+# L[start:stop:step]
+print(L[:4])
+print(L[::2])
+print(L[1::2])
+print(L[::-1])
+
+print(L[1:6:2])
+print(L[1:6:-2])
+print(L[6:1:-2])
+print(L[:1:-2])
+
+
